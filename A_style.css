@@ -1,0 +1,3092 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+    .mediaViewInfo {
+		--web-view-name: Canvas;
+		--web-view-id: Canvas;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Canvas;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Canvas {
+		position: absolute;
+		width: 1920px;
+		height: 5811px;
+		background-color: rgba(0,0,0,0);
+		overflow: hidden;
+		--web-view-name: Canvas;
+		--web-view-id: Canvas;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Layer_13 {
+		position: absolute;
+		width: 1920px;
+		height: 5731px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#BACKGROUND {
+		position: absolute;
+		width: 1933px;
+		height: 4181px;
+		left: -6px;
+		top: 455px;
+		overflow: visible;
+	}
+	#Rectangle_67 {
+		position: absolute;
+		width: 1933px;
+		height: 4181px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_67_j {
+		position: absolute;
+		width: 1933px;
+		height: 4181px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Clip {
+		position: absolute;
+		width: 1933px;
+		height: 4181px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#FOOTER {
+		position: absolute;
+		width: 1934px;
+		height: 765px;
+		left: -3px;
+		top: 5046px;
+		overflow: visible;
+	}
+	#main_footer {
+		position: absolute;
+		width: 1934px;
+		height: 481px;
+		left: 0px;
+		top: 259px;
+		overflow: visible;
+	}
+	#bg {
+		position: absolute;
+		width: 1934px;
+		height: 481px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_5 {
+		position: absolute;
+		width: 1920px;
+		height: 480px;
+		left: 3px;
+		top: 1px;
+		overflow: visible;
+	}
+	#Shape_5 {
+		position: absolute;
+		width: 1934px;
+		height: 1px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#magazine {
+		position: absolute;
+		width: 396px;
+		height: 230px;
+		left: 331px;
+		top: 44px;
+		overflow: visible;
+	}
+	#title {
+		position: absolute;
+		width: 164px;
+		height: 14px;
+		left: 46px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Missed_an_issue {
+		position: absolute;
+		width: 164px;
+		height: 14px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text {
+		position: absolute;
+		width: 186px;
+		height: 63px;
+		left: 196px;
+		top: 43px;
+		overflow: visible;
+	}
+	#Click_here_to_download_this_an {
+		position: absolute;
+		width: 186px;
+		height: 63px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#image {
+		position: absolute;
+		width: 178px;
+		height: 188px;
+		left: 0px;
+		top: 42px;
+		overflow: visible;
+	}
+	#Shadow {
+		opacity: 0.102;
+		position: absolute;
+		width: 178px;
+		height: 188px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Layer_111 {
+		position: absolute;
+		width: 126px;
+		height: 155px;
+		left: 47px;
+		top: 0px;
+		overflow: visible;
+	}
+	#button {
+		position: absolute;
+		width: 199px;
+		height: 50px;
+		left: 197px;
+		top: 135px;
+		overflow: visible;
+	}
+	#bg_z {
+		position: absolute;
+		width: 199px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rounded_Rectangle_3 {
+		position: absolute;
+		width: 199px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_ {
+		position: absolute;
+		width: 155px;
+		height: 11px;
+		left: 22px;
+		top: 19px;
+		overflow: visible;
+	}
+	#Browse_the_archive {
+		position: absolute;
+		width: 155px;
+		height: 11px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#store_locator {
+		position: absolute;
+		width: 256px;
+		height: 185px;
+		left: 868px;
+		top: 44px;
+		overflow: visible;
+	}
+	#title_ {
+		position: absolute;
+		width: 153px;
+		height: 14px;
+		left: 3px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Store_Locator_ {
+		position: absolute;
+		width: 153px;
+		height: 14px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_ba {
+		position: absolute;
+		width: 252px;
+		height: 37px;
+		left: 4px;
+		top: 43px;
+		overflow: visible;
+	}
+	#Find_the_closest_Sobeys_store_ {
+		position: absolute;
+		width: 252px;
+		height: 37px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#button_ {
+		position: absolute;
+		width: 169px;
+		height: 50px;
+		left: 0px;
+		top: 135px;
+		overflow: visible;
+	}
+	#bg_ {
+		position: absolute;
+		width: 169px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rounded_Rectangle_3_ba {
+		position: absolute;
+		width: 169px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_bb {
+		position: absolute;
+		width: 94px;
+		height: 11px;
+		left: 41px;
+		top: 19px;
+		overflow: visible;
+	}
+	#Search_Now {
+		position: absolute;
+		width: 94px;
+		height: 11px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#subscribe {
+		position: absolute;
+		width: 354px;
+		height: 185px;
+		left: 1193px;
+		top: 44px;
+		overflow: visible;
+	}
+	#title_be {
+		position: absolute;
+		width: 122px;
+		height: 14px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Get_updates {
+		position: absolute;
+		width: 122px;
+		height: 14px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_bg {
+		position: absolute;
+		width: 354px;
+		height: 63px;
+		left: 0px;
+		top: 43px;
+		overflow: visible;
+	}
+	#Sign_up_for_our_eFlyer_and_Bet {
+		position: absolute;
+		width: 354px;
+		height: 63px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#button_bi {
+		position: absolute;
+		width: 169px;
+		height: 50px;
+		left: 0px;
+		top: 135px;
+		overflow: visible;
+	}
+	#bg_bj {
+		position: absolute;
+		width: 169px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rounded_Rectangle_3_bk {
+		position: absolute;
+		width: 169px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_bl {
+		position: absolute;
+		width: 116px;
+		height: 11px;
+		left: 27px;
+		top: 19px;
+		overflow: visible;
+	}
+	#Subscribe_now {
+		position: absolute;
+		width: 116px;
+		height: 11px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#lines {
+		position: absolute;
+		width: 1170px;
+		height: 71px;
+		left: 378px;
+		top: 286px;
+		overflow: visible;
+	}
+	#Shape_1_copy {
+		position: absolute;
+		width: 1170px;
+		height: 1px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Shape_1_copy_2 {
+		position: absolute;
+		width: 1170px;
+		height: 1px;
+		left: 0px;
+		top: 70px;
+		overflow: visible;
+	}
+	#menu {
+		position: absolute;
+		width: 428px;
+		height: 15px;
+		left: 1120px;
+		top: 315px;
+		overflow: visible;
+	}
+	#Contact_Us______Privacy______T {
+		position: absolute;
+		width: 428px;
+		height: 15px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#copyrights {
+		position: absolute;
+		width: 201px;
+		height: 15px;
+		left: 377px;
+		top: 315px;
+		overflow: visible;
+	}
+	#Copyright__2018_Sobeys_Inc {
+		position: absolute;
+		width: 201px;
+		height: 15px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#notes {
+		position: absolute;
+		width: 724px;
+		height: 31px;
+		left: 377px;
+		top: 384px;
+		overflow: visible;
+	}
+	#Availability_of_certain_produc {
+		position: absolute;
+		width: 724px;
+		height: 31px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#floating_navigation {
+		position: absolute;
+		width: 1920px;
+		height: 65px;
+		left: 3px;
+		top: 700px;
+		overflow: visible;
+	}
+	#bg_bx {
+		position: absolute;
+		width: 1920px;
+		height: 65px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_5_by {
+		position: absolute;
+		width: 1920px;
+		height: 65px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#facebook {
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 930px;
+		top: 22px;
+		overflow: visible;
+	}
+	#facebook_b {
+		position: absolute;
+		width: 10px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#twitter {
+		position: absolute;
+		width: 22px;
+		height: 18px;
+		left: 978px;
+		top: 23px;
+		overflow: visible;
+	}
+	#Layer_36 {
+		position: absolute;
+		width: 22px;
+		height: 18px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#logo {
+		position: absolute;
+		width: 130px;
+		height: 40px;
+		left: 374px;
+		top: 12px;
+		overflow: visible;
+	}
+	#Layer_12 {
+		position: absolute;
+		width: 130px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#back_to_top {
+		position: absolute;
+		width: 137px;
+		height: 15px;
+		left: 1408px;
+		top: 24px;
+		overflow: visible;
+	}
+	#arrow {
+		position: absolute;
+		width: 26px;
+		height: 15px;
+		left: 111px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object {
+		position: absolute;
+		width: 26px;
+		height: 15px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_b {
+		position: absolute;
+		width: 100px;
+		height: 13px;
+		left: 0px;
+		top: 2px;
+		overflow: visible;
+	}
+	#Back_To_Top_b {
+		position: absolute;
+		width: 100px;
+		height: 13px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#navigation {
+		position: absolute;
+		width: 1170px;
+		height: 200px;
+		left: 377px;
+		top: 0px;
+		overflow: visible;
+	}
+	#previous {
+		position: absolute;
+		width: 580px;
+		height: 200px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#bg_cc {
+		position: absolute;
+		width: 580px;
+		height: 200px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_64 {
+		position: absolute;
+		width: 580px;
+		height: 200px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_64_ce {
+		position: absolute;
+		width: 580px;
+		height: 200px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Clip_cf {
+		position: absolute;
+		width: 580px;
+		height: 200px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_cg {
+		position: absolute;
+		width: 158px;
+		height: 46px;
+		left: 83px;
+		top: 75px;
+		overflow: visible;
+	}
+	#You_May_Also_Like {
+		position: absolute;
+		width: 126px;
+		height: 15px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Get_More_Chill {
+		position: absolute;
+		width: 157px;
+		height: 19px;
+		left: 1px;
+		top: 27px;
+		overflow: visible;
+	}
+	#arrow_cj {
+		position: absolute;
+		width: 29px;
+		height: 29px;
+		left: 30px;
+		top: 68px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_ck {
+		position: absolute;
+		width: 29px;
+		height: 29px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#next {
+		position: absolute;
+		width: 580px;
+		height: 200px;
+		left: 590px;
+		top: 0px;
+		overflow: visible;
+	}
+	#bg_cm {
+		position: absolute;
+		width: 580px;
+		height: 200px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_64_cn {
+		position: absolute;
+		width: 580px;
+		height: 200px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_64_co {
+		position: absolute;
+		width: 580px;
+		height: 200px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Clip_cp {
+		position: absolute;
+		width: 580px;
+		height: 200px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_cq {
+		position: absolute;
+		width: 183px;
+		height: 46px;
+		left: 318px;
+		top: 75px;
+		overflow: visible;
+	}
+	#You_May_Also_Like_cr {
+		position: absolute;
+		width: 127px;
+		height: 15px;
+		left: 56px;
+		top: 0px;
+		overflow: visible;
+	}
+	#The_Tender_Touch {
+		position: absolute;
+		width: 182px;
+		height: 19px;
+		left: 0px;
+		top: 27px;
+		overflow: visible;
+	}
+	#arrow_ct {
+		position: absolute;
+		width: 29px;
+		height: 29px;
+		left: 521px;
+		top: 68px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_cu {
+		position: absolute;
+		width: 29px;
+		height: 29px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#CONTENT {
+		position: absolute;
+		width: 1960px;
+		height: 4500px;
+		left: -3px;
+		top: 486px;
+		overflow: visible;
+	}
+	#section_01 {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 29px;
+		top: 0px;
+		overflow: visible;
+	}
+	#bg_cx {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_68 {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_68_cz {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Clip_c {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#play {
+		position: absolute;
+		width: 197px;
+		height: 111px;
+		left: 735px;
+		top: 203px;
+		overflow: visible;
+	}
+	#icon {
+		position: absolute;
+		width: 102px;
+		height: 102px;
+		left: 95px;
+		top: 9px;
+		overflow: visible;
+	}
+	#Ellipse_1 {
+		position: absolute;
+		width: 102px;
+		height: 102px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Shape_6 {
+		position: absolute;
+		width: 27px;
+		height: 28px;
+		left: 40px;
+		top: 26px;
+		overflow: visible;
+	}
+	#details {
+		position: absolute;
+		width: 111px;
+		height: 71px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_c {
+		position: absolute;
+		width: 54px;
+		height: 47px;
+		left: 48px;
+		top: 24px;
+		overflow: visible;
+	}
+	#Watch_the_video {
+		position: absolute;
+		width: 111px;
+		height: 13px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#content {
+		position: absolute;
+		width: 619px;
+		height: 588px;
+		left: 122px;
+		top: 123px;
+		overflow: visible;
+	}
+	#products {
+		position: absolute;
+		width: 617px;
+		height: 322px;
+		left: 0px;
+		top: 266px;
+		overflow: visible;
+	}
+	#product_02 {
+		position: absolute;
+		width: 312px;
+		height: 322px;
+		left: 305px;
+		top: 0px;
+		overflow: visible;
+	}
+	#bg_db {
+		position: absolute;
+		width: 312px;
+		height: 322px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63 {
+		position: absolute;
+		width: 312px;
+		height: 322px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_copy {
+		position: absolute;
+		width: 270px;
+		height: 5px;
+		left: 21px;
+		top: 286px;
+		overflow: visible;
+	}
+	#image_de {
+		position: absolute;
+		width: 226px;
+		height: 107px;
+		left: 43px;
+		top: 62px;
+		overflow: visible;
+	}
+	#Layer_99 {
+		position: absolute;
+		width: 226px;
+		height: 107px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_dg {
+		position: absolute;
+		width: 189px;
+		height: 38px;
+		left: 63px;
+		top: 210px;
+		overflow: visible;
+	}
+	#Sensations_by_Compliments_Chic {
+		position: absolute;
+		width: 189px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#product_01 {
+		position: absolute;
+		width: 327px;
+		height: 322px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#bg_dj {
+		position: absolute;
+		width: 312px;
+		height: 322px;
+		left: 15px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_dk {
+		position: absolute;
+		width: 312px;
+		height: 322px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_copy_dl {
+		position: absolute;
+		width: 270px;
+		height: 5px;
+		left: 21px;
+		top: 286px;
+		overflow: visible;
+	}
+	#image_dm {
+		position: absolute;
+		width: 98px;
+		height: 176px;
+		left: 123px;
+		top: 25px;
+		overflow: visible;
+	}
+	#Layer_104 {
+		position: absolute;
+		width: 98px;
+		height: 176px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_do {
+		position: absolute;
+		width: 210px;
+		height: 60px;
+		left: 67px;
+		top: 210px;
+		overflow: visible;
+	}
+	#Sensations_by_Compliments__Spi {
+		position: absolute;
+		width: 210px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#badge {
+		position: absolute;
+		width: 114px;
+		height: 90px;
+		left: 0px;
+		top: 19px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_dr {
+		position: absolute;
+		width: 114px;
+		height: 90px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#content_ds {
+		position: absolute;
+		width: 558px;
+		height: 155px;
+		left: 36px;
+		top: 84px;
+		overflow: visible;
+	}
+	#cta {
+		position: absolute;
+		width: 180px;
+		height: 55px;
+		left: 378px;
+		top: 100px;
+		overflow: visible;
+	}
+	#bg_du {
+		position: absolute;
+		width: 180px;
+		height: 55px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rounded_Rectangle_2 {
+		position: absolute;
+		width: 180px;
+		height: 55px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_dw {
+		position: absolute;
+		width: 116px;
+		height: 13px;
+		left: 32px;
+		top: 22px;
+		overflow: visible;
+	}
+	#Get_the_recipe {
+		position: absolute;
+		width: 116px;
+		height: 13px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#details_dy {
+		position: absolute;
+		width: 310px;
+		height: 40px;
+		left: 2px;
+		top: 108px;
+		overflow: visible;
+	}
+	#serve {
+		position: absolute;
+		width: 124px;
+		height: 40px;
+		left: 186px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_d {
+		position: absolute;
+		width: 60px;
+		height: 38px;
+		left: 64px;
+		top: 2px;
+		overflow: visible;
+	}
+	#Serves_6_People {
+		position: absolute;
+		width: 60px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#icon_d {
+		position: absolute;
+		width: 44px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_d {
+		position: absolute;
+		width: 44px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#time {
+		position: absolute;
+		width: 135px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_ea {
+		position: absolute;
+		width: 81px;
+		height: 38px;
+		left: 54px;
+		top: 2px;
+		overflow: visible;
+	}
+	#Total_time_1_hr_35_min {
+		position: absolute;
+		width: 81px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#icon_ea {
+		position: absolute;
+		width: 36px;
+		height: 34px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_ea {
+		position: absolute;
+		width: 36px;
+		height: 34px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#sub_title {
+		position: absolute;
+		width: 297px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Jamaican-Style_BBQ_Chicken {
+		position: absolute;
+		width: 297px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_eb {
+		position: absolute;
+		width: 530px;
+		height: 39px;
+		left: 1px;
+		top: 34px;
+		overflow: visible;
+	}
+	#Ginger_ale_acts_like_sugar_in_ {
+		position: absolute;
+		width: 530px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#title_ed {
+		position: absolute;
+		width: 585px;
+		height: 77px;
+		left: 34px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Dark__Stormy_Rum-Spice {
+		position: absolute;
+		width: 585px;
+		height: 77px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#RUM_SPICE {
+		display: none;
+		position: absolute;
+		width: 270px;
+		height: 49px;
+		left: 348px;
+		top: 2px;
+		overflow: visible;
+	}
+	#section_02 {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 29px;
+		top: 830px;
+		overflow: visible;
+	}
+	#bg_eh {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_68_ei {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_68_ej {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Clip_ek {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#content_el {
+		position: absolute;
+		width: 592px;
+		height: 608px;
+		left: 1137px;
+		top: 104px;
+		overflow: visible;
+	}
+	#content_em {
+		position: absolute;
+		width: 532px;
+		height: 97px;
+		left: 12px;
+		top: 86px;
+		overflow: visible;
+	}
+	#sub_title_en {
+		position: absolute;
+		width: 350px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Grilled_Shrimp__Kale_Ranch_Sal {
+		position: absolute;
+		width: 350px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_ep {
+		position: absolute;
+		width: 532px;
+		height: 63px;
+		left: 0px;
+		top: 34px;
+		overflow: visible;
+	}
+	#This_zesty-sweet_marinade_adds {
+		position: absolute;
+		width: 532px;
+		height: 63px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#title_er {
+		position: absolute;
+		width: 374px;
+		height: 77px;
+		left: 5px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Spicy_Southwest {
+		position: absolute;
+		width: 374px;
+		height: 77px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Salad {
+		display: none;
+		position: absolute;
+		width: 162px;
+		height: 49px;
+		left: 183px;
+		top: 2px;
+		overflow: visible;
+	}
+	#cta_eu {
+		position: absolute;
+		width: 180px;
+		height: 55px;
+		left: 389px;
+		top: 206px;
+		overflow: visible;
+	}
+	#bg_ev {
+		position: absolute;
+		width: 180px;
+		height: 55px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rounded_Rectangle_2_ew {
+		position: absolute;
+		width: 180px;
+		height: 55px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_ex {
+		position: absolute;
+		width: 116px;
+		height: 13px;
+		left: 32px;
+		top: 22px;
+		overflow: visible;
+	}
+	#Get_the_recipe_ey {
+		position: absolute;
+		width: 116px;
+		height: 13px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#products_ez {
+		position: absolute;
+		width: 592px;
+		height: 312px;
+		left: 0px;
+		top: 296px;
+		overflow: visible;
+	}
+	#product_01_e {
+		position: absolute;
+		width: 302px;
+		height: 312px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#bg_e {
+		position: absolute;
+		width: 302px;
+		height: 312px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_e {
+		position: absolute;
+		width: 302px;
+		height: 312px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_copy_e {
+		position: absolute;
+		width: 270px;
+		height: 5px;
+		left: 11px;
+		top: 282px;
+		overflow: visible;
+	}
+	#image_e {
+		position: absolute;
+		width: 69px;
+		height: 195px;
+		left: 112px;
+		top: 13px;
+		overflow: visible;
+	}
+	#Layer_105 {
+		position: absolute;
+		width: 69px;
+		height: 195px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_e {
+		position: absolute;
+		width: 190px;
+		height: 54px;
+		left: 51px;
+		top: 212px;
+		overflow: visible;
+	}
+	#Sensations_by_Compliments__Sou {
+		position: absolute;
+		width: 190px;
+		height: 54px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#product_02_e {
+		position: absolute;
+		width: 302px;
+		height: 312px;
+		left: 290px;
+		top: 0px;
+		overflow: visible;
+	}
+	#bg_fa {
+		position: absolute;
+		width: 302px;
+		height: 312px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_fa {
+		position: absolute;
+		width: 302px;
+		height: 312px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_copy_fb {
+		position: absolute;
+		width: 270px;
+		height: 5px;
+		left: 11px;
+		top: 282px;
+		overflow: visible;
+	}
+	#image_fc {
+		position: absolute;
+		width: 122px;
+		height: 166px;
+		left: 85px;
+		top: 17px;
+		overflow: visible;
+	}
+	#Layer_106 {
+		position: absolute;
+		width: 122px;
+		height: 166px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_fe {
+		position: absolute;
+		width: 189px;
+		height: 76px;
+		left: 53px;
+		top: 190px;
+		overflow: visible;
+	}
+	#Sensations_by_Compliments_Unco {
+		position: absolute;
+		width: 189px;
+		height: 76px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#details_fg {
+		position: absolute;
+		width: 310px;
+		height: 40px;
+		left: 12px;
+		top: 214px;
+		overflow: visible;
+	}
+	#serve_fh {
+		position: absolute;
+		width: 124px;
+		height: 40px;
+		left: 186px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_fi {
+		position: absolute;
+		width: 60px;
+		height: 38px;
+		left: 64px;
+		top: 2px;
+		overflow: visible;
+	}
+	#Serves_4_People {
+		position: absolute;
+		width: 60px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#icon_fk {
+		position: absolute;
+		width: 44px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_fl {
+		position: absolute;
+		width: 44px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#time_fm {
+		position: absolute;
+		width: 135px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_fn {
+		position: absolute;
+		width: 81px;
+		height: 38px;
+		left: 54px;
+		top: 2px;
+		overflow: visible;
+	}
+	#Total_time_10_min {
+		position: absolute;
+		width: 81px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#icon_fp {
+		position: absolute;
+		width: 36px;
+		height: 34px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_fq {
+		position: absolute;
+		width: 36px;
+		height: 34px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#section_03 {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 29px;
+		top: 1660px;
+		overflow: visible;
+	}
+	#bg_fs {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_68_copy {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_68_copy_fu {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Clip_fv {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#content_fw {
+		position: absolute;
+		width: 602px;
+		height: 532px;
+		left: 136px;
+		top: 143px;
+		overflow: visible;
+	}
+	#content_fx {
+		position: absolute;
+		width: 550px;
+		height: 95px;
+		left: 22px;
+		top: 85px;
+		overflow: visible;
+	}
+	#sub_title_fy {
+		position: absolute;
+		width: 374px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Kansas_CityStyle_Ribs_in_BBQ_S {
+		position: absolute;
+		width: 374px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_f {
+		position: absolute;
+		width: 550px;
+		height: 61px;
+		left: 0px;
+		top: 34px;
+		overflow: visible;
+	}
+	#These_fully_cooked_ribs_are_ge {
+		position: absolute;
+		width: 550px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#details_f {
+		position: absolute;
+		width: 310px;
+		height: 40px;
+		left: 2px;
+		top: 129px;
+		display: none;
+		overflow: visible;
+	}
+	#serve_f {
+		position: absolute;
+		width: 124px;
+		height: 40px;
+		left: 186px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_ga {
+		position: absolute;
+		width: 60px;
+		height: 38px;
+		left: 64px;
+		top: 2px;
+		overflow: visible;
+	}
+	#Serves_6_People_f {
+		position: absolute;
+		width: 60px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#icon_f {
+		position: absolute;
+		width: 44px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_f {
+		position: absolute;
+		width: 44px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#time_f {
+		position: absolute;
+		width: 135px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_gb {
+		position: absolute;
+		width: 81px;
+		height: 38px;
+		left: 54px;
+		top: 2px;
+		overflow: visible;
+	}
+	#Total_time_1_h_10_min {
+		position: absolute;
+		width: 81px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#icon_gb {
+		position: absolute;
+		width: 36px;
+		height: 34px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_gc {
+		position: absolute;
+		width: 36px;
+		height: 34px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#cta_gd {
+		position: absolute;
+		width: 180px;
+		height: 55px;
+		left: 380px;
+		top: 132px;
+		display: none;
+		overflow: visible;
+	}
+	#bg_ge {
+		position: absolute;
+		width: 180px;
+		height: 55px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rounded_Rectangle_2_gf {
+		position: absolute;
+		width: 180px;
+		height: 55px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_gg {
+		position: absolute;
+		width: 116px;
+		height: 13px;
+		left: 32px;
+		top: 22px;
+		overflow: visible;
+	}
+	#Get_the_recipe_gh {
+		position: absolute;
+		width: 116px;
+		height: 13px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#title_gi {
+		position: absolute;
+		width: 379px;
+		height: 77px;
+		left: 19px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Smoky_Barbecue {
+		position: absolute;
+		width: 379px;
+		height: 77px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Back_Ribs {
+		display: none;
+		position: absolute;
+		width: 260px;
+		height: 49px;
+		left: 126px;
+		top: 2px;
+		overflow: visible;
+	}
+	#products_gl {
+		position: absolute;
+		width: 602px;
+		height: 322px;
+		left: 0px;
+		top: 210px;
+		overflow: visible;
+	}
+	#product_01_gm {
+		position: absolute;
+		width: 312px;
+		height: 322px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#bg_gn {
+		position: absolute;
+		width: 312px;
+		height: 322px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_go {
+		position: absolute;
+		width: 312px;
+		height: 322px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_copy_gp {
+		position: absolute;
+		width: 270px;
+		height: 5px;
+		left: 21px;
+		top: 286px;
+		overflow: visible;
+	}
+	#image_gq {
+		position: absolute;
+		width: 227px;
+		height: 68px;
+		left: 43px;
+		top: 83px;
+		overflow: visible;
+	}
+	#Layer_107 {
+		position: absolute;
+		width: 227px;
+		height: 68px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_gs {
+		position: absolute;
+		width: 205px;
+		height: 56px;
+		left: 55px;
+		top: 214px;
+		overflow: visible;
+	}
+	#Sensations_by_Compliments_Kans {
+		position: absolute;
+		width: 205px;
+		height: 56px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#product_02_gu {
+		position: absolute;
+		width: 312px;
+		height: 322px;
+		left: 290px;
+		top: 0px;
+		overflow: visible;
+	}
+	#bg_gv {
+		position: absolute;
+		width: 312px;
+		height: 322px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_gw {
+		position: absolute;
+		width: 312px;
+		height: 322px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_copy_gx {
+		position: absolute;
+		width: 270px;
+		height: 5px;
+		left: 21px;
+		top: 286px;
+		overflow: visible;
+	}
+	#image_gy {
+		position: absolute;
+		width: 240px;
+		height: 168px;
+		left: 37px;
+		top: 39px;
+		overflow: visible;
+	}
+	#Layer_108 {
+		position: absolute;
+		width: 240px;
+		height: 168px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_g {
+		position: absolute;
+		width: 227px;
+		height: 36px;
+		left: 44px;
+		top: 233px;
+		overflow: visible;
+	}
+	#Deli_Prepared_Flatbreads__See_ {
+		position: absolute;
+		width: 227px;
+		height: 36px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#badge_g {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		left: -452px;
+		top: -2499px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_g {
+		display: none;
+		position: absolute;
+		width: 114px;
+		height: 90px;
+		left: 674px;
+		top: 2489px;
+		overflow: visible;
+	}
+	#section_04 {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 29px;
+		top: 2490px;
+		overflow: visible;
+	}
+	#bg_g {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_68_g {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_68_ha {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Clip_g {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#content_g {
+		position: absolute;
+		width: 592px;
+		height: 608px;
+		left: 1137px;
+		top: 104px;
+		overflow: visible;
+	}
+	#content_ha {
+		position: absolute;
+		width: 515px;
+		height: 95px;
+		left: 11px;
+		top: 86px;
+		overflow: visible;
+	}
+	#sub_title_hb {
+		position: absolute;
+		width: 363px;
+		height: 21px;
+		left: 1px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Grilled_Steak__Cheese_Quesadil {
+		position: absolute;
+		width: 363px;
+		height: 21px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_hd {
+		position: absolute;
+		width: 515px;
+		height: 61px;
+		left: 0px;
+		top: 34px;
+		overflow: visible;
+	}
+	#These_quesadillas_are_ready_fa {
+		position: absolute;
+		width: 515px;
+		height: 61px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#title_hf {
+		position: absolute;
+		width: 481px;
+		height: 77px;
+		left: 11px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Tangy-Sweet_Bourbon {
+		position: absolute;
+		width: 481px;
+		height: 77px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Quesadillas {
+		display: none;
+		position: absolute;
+		width: 319px;
+		height: 50px;
+		left: 141px;
+		top: 2px;
+		overflow: visible;
+	}
+	#cta_hi {
+		position: absolute;
+		width: 180px;
+		height: 55px;
+		left: 389px;
+		top: 206px;
+		overflow: visible;
+	}
+	#bg_hj {
+		position: absolute;
+		width: 180px;
+		height: 55px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rounded_Rectangle_2_hk {
+		position: absolute;
+		width: 180px;
+		height: 55px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_hl {
+		position: absolute;
+		width: 116px;
+		height: 13px;
+		left: 32px;
+		top: 22px;
+		overflow: visible;
+	}
+	#Get_the_recipe_hm {
+		position: absolute;
+		width: 116px;
+		height: 13px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#products_hn {
+		position: absolute;
+		width: 592px;
+		height: 312px;
+		left: 0px;
+		top: 296px;
+		overflow: visible;
+	}
+	#product_01_ho {
+		position: absolute;
+		width: 302px;
+		height: 312px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#bg_hp {
+		position: absolute;
+		width: 302px;
+		height: 312px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_hq {
+		position: absolute;
+		width: 302px;
+		height: 312px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_copy_hr {
+		position: absolute;
+		width: 270px;
+		height: 5px;
+		left: 11px;
+		top: 282px;
+		overflow: visible;
+	}
+	#image_hs {
+		position: absolute;
+		width: 188px;
+		height: 188px;
+		left: 52px;
+		top: 16px;
+		overflow: visible;
+	}
+	#Layer_100 {
+		position: absolute;
+		width: 188px;
+		height: 188px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_hu {
+		position: absolute;
+		width: 209px;
+		height: 54px;
+		left: 41px;
+		top: 210px;
+		overflow: visible;
+	}
+	#Sensations_by_Compliments_Spir {
+		position: absolute;
+		width: 209px;
+		height: 54px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#product_02_hw {
+		position: absolute;
+		width: 302px;
+		height: 312px;
+		left: 290px;
+		top: 0px;
+		overflow: visible;
+	}
+	#bg_hx {
+		position: absolute;
+		width: 302px;
+		height: 312px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_hy {
+		position: absolute;
+		width: 302px;
+		height: 312px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_63_copy_hz {
+		position: absolute;
+		width: 270px;
+		height: 5px;
+		left: 11px;
+		top: 282px;
+		overflow: visible;
+	}
+	#image_h {
+		position: absolute;
+		width: 224px;
+		height: 149px;
+		left: 34px;
+		top: 44px;
+		overflow: visible;
+	}
+	#Layer_101 {
+		position: absolute;
+		width: 224px;
+		height: 149px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_h {
+		position: absolute;
+		width: 164px;
+		height: 36px;
+		left: 66px;
+		top: 230px;
+		overflow: visible;
+	}
+	#Butcher_Prepared_Beef_Kabobs_w {
+		position: absolute;
+		width: 164px;
+		height: 36px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#details_h {
+		position: absolute;
+		width: 310px;
+		height: 40px;
+		left: 12px;
+		top: 214px;
+		overflow: visible;
+	}
+	#serve_h {
+		position: absolute;
+		width: 124px;
+		height: 40px;
+		left: 186px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_ia {
+		position: absolute;
+		width: 60px;
+		height: 38px;
+		left: 64px;
+		top: 2px;
+		overflow: visible;
+	}
+	#Serves_6_People_h {
+		position: absolute;
+		width: 60px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#icon_h {
+		position: absolute;
+		width: 44px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_h {
+		position: absolute;
+		width: 44px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#time_ia {
+		position: absolute;
+		width: 135px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_ib {
+		position: absolute;
+		width: 81px;
+		height: 38px;
+		left: 54px;
+		top: 2px;
+		overflow: visible;
+	}
+	#Total_time_25_min {
+		position: absolute;
+		width: 81px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#icon_id {
+		position: absolute;
+		width: 36px;
+		height: 34px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_ie {
+		position: absolute;
+		width: 36px;
+		height: 34px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#section_05 {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 29px;
+		top: 3320px;
+		overflow: visible;
+	}
+	#bg_ig {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_68_copy_ih {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_68_copy_ii {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Clip_ij {
+		position: absolute;
+		width: 1866px;
+		height: 806px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#content_ik {
+		position: absolute;
+		width: 541px;
+		height: 540px;
+		left: 158px;
+		top: 113px;
+		overflow: visible;
+	}
+	#content_il {
+		position: absolute;
+		width: 539px;
+		height: 149px;
+		left: 0px;
+		top: 85px;
+		overflow: visible;
+	}
+	#sub_title_im {
+		position: absolute;
+		width: 310px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Grilled_Chipotle_Veggie_Pizzas {
+		position: absolute;
+		width: 310px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_io {
+		position: absolute;
+		width: 539px;
+		height: 39px;
+		left: 0px;
+		top: 34px;
+		overflow: visible;
+	}
+	#No_dough_to_roll_for_these_sim {
+		position: absolute;
+		width: 539px;
+		height: 39px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#details_iq {
+		position: absolute;
+		width: 310px;
+		height: 40px;
+		left: 2px;
+		top: 109px;
+		overflow: visible;
+	}
+	#serve_ir {
+		position: absolute;
+		width: 124px;
+		height: 40px;
+		left: 186px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_is {
+		position: absolute;
+		width: 60px;
+		height: 38px;
+		left: 64px;
+		top: 2px;
+		overflow: visible;
+	}
+	#Serves_4_People_it {
+		position: absolute;
+		width: 60px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#icon_iu {
+		position: absolute;
+		width: 44px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_iv {
+		position: absolute;
+		width: 44px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#time_iw {
+		position: absolute;
+		width: 135px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_ix {
+		position: absolute;
+		width: 81px;
+		height: 38px;
+		left: 54px;
+		top: 2px;
+		overflow: visible;
+	}
+	#Total_time_1_h_10_min_iy {
+		position: absolute;
+		width: 81px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#icon_iz {
+		position: absolute;
+		width: 36px;
+		height: 34px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_i {
+		position: absolute;
+		width: 36px;
+		height: 34px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#cta_i {
+		position: absolute;
+		width: 116px;
+		height: 13px;
+		left: 412px;
+		top: 124px;
+		overflow: visible;
+	}
+	#bg_j {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rounded_Rectangle_2_i {
+		display: none;
+		position: absolute;
+		width: 180px;
+		height: 55px;
+		left: 564px;
+		top: 4106px;
+		overflow: visible;
+	}
+	#text_i {
+		position: absolute;
+		width: 116px;
+		height: 13px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Get_the_recipe_i {
+		position: absolute;
+		width: 116px;
+		height: 13px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#title_i {
+		position: absolute;
+		width: 435px;
+		height: 73px;
+		left: 2px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Craft_Beer_Chipotle {
+		position: absolute;
+		width: 435px;
+		height: 73px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Pizzas {
+		position: absolute;
+		width: 168px;
+		height: 49px;
+		left: 151px;
+		top: 2px;
+		overflow: visible;
+	}
+	#products_i {
+		position: absolute;
+		width: 503px;
+		height: 247px;
+		left: 38px;
+		top: 293px;
+		overflow: visible;
+	}
+	#product_01_ja {
+		position: absolute;
+		width: 196px;
+		height: 247px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#bg_jb {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		left: -222px;
+		top: -4212px;
+		overflow: visible;
+	}
+	#Rectangle_63_jc {
+		display: none;
+		position: absolute;
+		width: 312px;
+		height: 322px;
+		left: 162px;
+		top: 4189px;
+		overflow: visible;
+	}
+	#Rectangle_63_copy_jd {
+		display: none;
+		position: absolute;
+		width: 270px;
+		height: 5px;
+		left: 183px;
+		top: 4475px;
+		overflow: visible;
+	}
+	#image_je {
+		position: absolute;
+		width: 85px;
+		height: 178px;
+		left: 54px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Layer_102 {
+		position: absolute;
+		width: 85px;
+		height: 178px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_jg {
+		position: absolute;
+		width: 196px;
+		height: 56px;
+		left: 0px;
+		top: 191px;
+		overflow: visible;
+	}
+	#Sensations_by_Compliments_Spir_jh {
+		position: absolute;
+		width: 196px;
+		height: 56px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#product_02_ji {
+		position: absolute;
+		width: 230px;
+		height: 241px;
+		left: 273px;
+		top: 5px;
+		overflow: visible;
+	}
+	#bg_jj {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		left: -495px;
+		top: -4217px;
+		overflow: visible;
+	}
+	#Rectangle_63_jk {
+		display: none;
+		position: absolute;
+		width: 312px;
+		height: 322px;
+		left: 452px;
+		top: 4189px;
+		overflow: visible;
+	}
+	#Rectangle_63_copy_jl {
+		display: none;
+		position: absolute;
+		width: 270px;
+		height: 5px;
+		left: 473px;
+		top: 4475px;
+		overflow: visible;
+	}
+	#image_jm {
+		position: absolute;
+		width: 161px;
+		height: 180px;
+		left: 33px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Layer_103 {
+		position: absolute;
+		width: 161px;
+		height: 180px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_jo {
+		position: absolute;
+		width: 230px;
+		height: 36px;
+		left: 0px;
+		top: 205px;
+		overflow: visible;
+	}
+	#Sensations_by_Compliments_Roas {
+		position: absolute;
+		width: 230px;
+		height: 36px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#banner {
+		position: absolute;
+		width: 1960px;
+		height: 350px;
+		left: 0px;
+		top: 4150px;
+		overflow: visible;
+	}
+	#image_jr {
+		position: absolute;
+		width: 1960px;
+		height: 350px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_65 {
+		position: absolute;
+		width: 1960px;
+		height: 350px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_65_jt {
+		position: absolute;
+		width: 1960px;
+		height: 350px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Clip_ju {
+		position: absolute;
+		width: 1960px;
+		height: 350px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_65_copy {
+		opacity: 0.149;
+		display: none;
+		position: absolute;
+		width: 1960px;
+		height: 350px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_66 {
+		position: absolute;
+		width: 1949px;
+		height: 10px;
+		left: 2px;
+		top: 0px;
+		overflow: visible;
+	}
+	#text_jx {
+		position: absolute;
+		width: 1195px;
+		height: 84px;
+		left: 369px;
+		top: 104px;
+		overflow: visible;
+	}
+	#Our_Spirited_Mickie_BBQ_Sauces {
+		position: absolute;
+		width: 613px;
+		height: 26px;
+		left: 290px;
+		top: 58px;
+		overflow: visible;
+	}
+	#ID21_Ways_to_Boost_Flavour_wit {
+		position: absolute;
+		width: 1195px;
+		height: 55px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#cta_j {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		left: 3px;
+		top: -4636px;
+		overflow: visible;
+	}
+	#bg_j {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rounded_Rectangle_2_j {
+		display: none;
+		position: absolute;
+		width: 180px;
+		height: 55px;
+		left: 870px;
+		top: 4843px;
+		overflow: visible;
+	}
+	#text_j {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Get_the_recipes {
+		display: none;
+		position: absolute;
+		width: 125px;
+		height: 13px;
+		left: 897px;
+		top: 4864px;
+		overflow: visible;
+	}
+	#HEADER {
+		position: absolute;
+		width: 1940px;
+		height: 456px;
+		left: -6px;
+		top: 0px;
+		overflow: visible;
+	}
+	#bg_ka {
+		position: absolute;
+		width: 1938px;
+		height: 385px;
+		left: 2px;
+		top: 71px;
+		overflow: visible;
+	}
+	#Shape_3 {
+		position: absolute;
+		width: 1938px;
+		height: 385px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Shape_3_j {
+		position: absolute;
+		width: 1938px;
+		height: 385px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Clip_j {
+		position: absolute;
+		width: 1938px;
+		height: 385px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#headline {
+		position: absolute;
+		width: 918px;
+		height: 277px;
+		left: 507px;
+		top: 126px;
+		overflow: visible;
+	}
+	#Compliments_sauces_and_dressin {
+		position: absolute;
+		width: 918px;
+		height: 40px;
+		left: 0px;
+		top: 237px;
+		overflow: visible;
+	}
+	#Dinner_Gets {
+		position: absolute;
+		width: 499px;
+		height: 115px;
+		left: 208px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Saucy {
+		position: absolute;
+		width: 305px;
+		height: 109px;
+		left: 306px;
+		top: 103px;
+		overflow: visible;
+	}
+	#top_navigation {
+		position: absolute;
+		width: 1935px;
+		height: 75px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#bg_kf {
+		position: absolute;
+		width: 1935px;
+		height: 75px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_1 {
+		position: absolute;
+		width: 1935px;
+		height: 75px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#navigation_kh {
+		position: absolute;
+		width: 1836px;
+		height: 27px;
+		left: 39px;
+		top: 22px;
+		overflow: visible;
+	}
+	#menu_ki {
+		position: absolute;
+		width: 26px;
+		height: 20px;
+		left: 0px;
+		top: 5px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_kj {
+		position: absolute;
+		width: 26px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#menus {
+		position: absolute;
+		width: 182px;
+		height: 27px;
+		left: 1654px;
+		top: 0px;
+		overflow: visible;
+	}
+	#list {
+		position: absolute;
+		width: 22px;
+		height: 26px;
+		left: 58px;
+		top: 1px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_km {
+		position: absolute;
+		width: 22px;
+		height: 26px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#download_pdf {
+		position: absolute;
+		width: 26px;
+		height: 21px;
+		left: 109px;
+		top: 4px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_ko {
+		position: absolute;
+		width: 26px;
+		height: 21px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#location {
+		position: absolute;
+		width: 23px;
+		height: 27px;
+		left: 159px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_kq {
+		position: absolute;
+		width: 23px;
+		height: 27px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#home {
+		position: absolute;
+		width: 27px;
+		height: 26px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Vector_Smart_Object_ks {
+		position: absolute;
+		width: 27px;
+		height: 26px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#logo_kt {
+		position: absolute;
+		width: 160px;
+		height: 50px;
+		left: 886px;
+		top: 14px;
+		overflow: visible;
+	}
+	#Layer_12_ku {
+		position: absolute;
+		width: 160px;
+		height: 50px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
